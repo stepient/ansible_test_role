@@ -1,0 +1,4 @@
+---
+- name: Display test message ansible_test_role
+  debug:
+    msg: If you see this message, ansible_test_role worked :)
