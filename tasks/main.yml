@@ -2,3 +2,7 @@
 - name: Display test message ansible_test_role
   debug:
     msg: If you see this message, ansible_test_role worked :)
+    
+- name: Run ansible_test_role2
+  include_role:
+    name: ansible_test_role2
